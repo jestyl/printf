@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * is_printable - Evaluates if a char is printable
- * @c: Char
+ * is_printable - Checks if a character is printable
  *
- * Return: 1 or 0
+ * @c: The character to be evaluated
+ *
+ * Return: 1 if the character is printable, 0 otherwise
  */
 int is_printable(char c)
 {
