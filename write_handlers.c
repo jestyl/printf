@@ -1,17 +1,16 @@
 #include "main.h"
 
-/*** WRITE HANDLE ***/
 /**
- * handle_write_char - Prints a string
+ * handle_write_char - Prints a character
  *
- * @c: char
- * @buffer: Buffer array
- * @flags:  Active flags
- * @width: width
- * @precision: precision specifier
- * @size: Size specifier
+ * @c: The character to be printed
+ * @buffer: Buffer array to store the printed output
+ * @flags: Active flags for formatting
+ * @width: Width specifier for formatting
+ * @precision: Precision specifier for formatting
+ * @size: Size specifier for formatting
  *
- * Return: Number of chars printed
+ * Return: The number of characters printed
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
