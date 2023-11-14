@@ -6,7 +6,7 @@
  * @format: A formatted string specifying how to print the arguments
  * @i: A variable argument list
  *
- * Return: The size required for formatting the arguments based on the format string
+ * Return: The size required for formatting the argument
  */
 
 int get_size(const char *format, int *i)
